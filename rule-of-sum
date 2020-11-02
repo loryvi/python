@@ -1,0 +1,9 @@
+#rule of sum
+#to see how rule of sum works, we test by having an array A and array B 
+A = (['A', 'boy', 'cat','D']) 
+B = [1,2,3,4,0]
+
+print(A+B)
+
+#it will print
+# ['A', 'boy', 'cat', 'D', 1, 2, 3, 4, 0]
