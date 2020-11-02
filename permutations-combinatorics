@@ -1,0 +1,25 @@
+#permutations
+
+from itertools import permutations
+
+count = 0
+for pr in permutations("abcd", 2):
+    print("".join(pr))
+    count = count +1
+print(count)
+
+"""
+ab
+ac
+ad
+ba
+bc
+bd
+ca
+cb
+cd
+da
+db
+dc
+12
+"""
