@@ -1,0 +1,28 @@
+#rule of product
+
+from itertools import product 
+
+for p in product(['a','b','c'],['x','y']):
+    print("".join(p))
+    
+#another example
+    #Declaring an array
+from itertools import product #this is important for the for loop we will use
+
+A=['a','b','c']
+B=['x','y']
+
+for p in product(A,B):
+    print("".join(p))
+    
+#by joining the elements in A and B, we get
+"""
+ax
+ay
+bx
+by
+cx
+cy
+"""
+
+# hashtag means comment while the string inside """ """ are also comments
