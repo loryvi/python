@@ -1,2 +1,1 @@
-# pythonpractice
-A compilation of python
+A compilation of python mini projects
