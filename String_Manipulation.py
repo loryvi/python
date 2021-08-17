@@ -33,3 +33,30 @@ print(sentence.replace("CheeSe","siSig"))
 
 print(sentence.index("and"))
 # counts where the sentence or letter is found.
+
+########################################################################
+#display string in f format 
+store_street = "Ayala Blvd."
+City="Ermita, Manila"
+Country = "Philippines"
+
+print(store_street + City + Country) #prints string in traditional way
+address = f'{store_street}\n{City}\n{Country}' #f format
+print(address)
+
+num_vegetables = 3
+num_fruits =4
+print(f"I eat {num_vegetables} vegetables and {num_fruits} fruits everyday")
+
+############################################################################
+
+#choosing what phrase will print using slice operator
+science = 'Earth revolves around the sun'
+print(science[6:14]) #can also use science[slice(6,14)] 
+#prints "revolves"
+print(science[-3:])
+#prints "sun"
+
+
+s='main 200 banana khaye'
+print(s.replace("banana", "samosa").replace('200','10'))
